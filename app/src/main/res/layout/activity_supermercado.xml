@@ -7,4 +7,198 @@
     tools:context="com.truiton.placepicker.SupermercadoActivity">
 
 
+    <TextView
+        android:id="@+id/avaliacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="120dp"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:text="Avaliações" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/avaliacoes"
+        android:layout_alignLeft="@+id/avaliacoes"
+        android:layout_alignStart="@+id/avaliacoes">
+
+        <TextView
+            android:id="@+id/padaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Padaria" />
+
+        <TextView
+            android:id="@+id/notaPad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="5.0" />
+
+        <RatingBar
+            android:id="@+id/ratingBarPad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:stepSize="1.0"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/avaliacoes"
+        android:layout_alignLeft="@+id/avaliacoes"
+        android:layout_alignStart="@+id/avaliacoes">
+
+        <TextView
+            android:id="@+id/hortifrut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Hortifrut" />
+
+        <TextView
+            android:id="@+id/notaHor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="5.0" />
+
+        <RatingBar
+            android:id="@+id/ratingBarHor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:stepSize="1.0"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/avaliacoes"
+        android:layout_alignLeft="@+id/avaliacoes"
+        android:layout_alignStart="@+id/avaliacoes">
+
+        <TextView
+            android:id="@+id/frios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Frios" />
+
+        <TextView
+            android:id="@+id/notaFri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="5.0" />
+
+        <RatingBar
+            android:id="@+id/ratingBarFri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:stepSize="1.0"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/avaliacoes"
+        android:layout_alignLeft="@+id/avaliacoes"
+        android:layout_alignStart="@+id/avaliacoes">
+
+        <TextView
+            android:id="@+id/acougue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Açougue" />
+
+        <TextView
+            android:id="@+id/notaAco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="5.0" />
+
+        <RatingBar
+            android:id="@+id/ratingBarAco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:stepSize="1.0"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/avaliacoes"
+        android:layout_alignLeft="@+id/avaliacoes"
+        android:layout_alignStart="@+id/avaliacoes">
+
+        <TextView
+            android:id="@+id/caixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Caixa" />
+
+        <TextView
+            android:id="@+id/notaCaixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="5.0" />
+
+        <RatingBar
+            android:id="@+id/ratingBarCaixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:stepSize="1.0"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
 </RelativeLayout>
